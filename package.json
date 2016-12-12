@@ -1,0 +1,19 @@
+{
+  "name": "linked-list",
+  "version": "0.0.1",
+  "description": "linked list data stucture",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-polyfill --compilers js:babel-register",
+    "compile": "./node_modules/.bin/tsc"
+  },
+  "author": "Oleg Rybnikov",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-polyfill": "6.20.0",
+    "babel-preset-latest": "6.16.0",
+    "babel-register": "6.18.0",
+    "mocha": "3.2.0",
+    "typescript": "2.0.10"
+  }
+}
